@@ -1,0 +1,13 @@
+[project]
+name = "reader"
+version = "0.1.0"
+description = "小说阅读器 - 支持网页抓取/TXT导入/背景透明/字体调节"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "beautifulsoup4>=4.14.3",
+    "chardet>=7.1.0",
+    "lxml>=6.0.2",
+    "requests>=2.32.5",
+    "ttkbootstrap>=1.20.2",
+]
